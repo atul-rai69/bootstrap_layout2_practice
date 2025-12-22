@@ -108,6 +108,20 @@ p{
     font-size: 15px;
     padding: 12px 14px;
 }
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: red ; /* Blue border */
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(252, 252, 252, 0.25) !important; /* Blue glow */
+}
+.form-active{
+    /* box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important; */
+    /* border-color: #84b7fe !important; */
+    box-shadow: 0 10px 30px rgba(241, 31, 31, 0.18) !important;
+    background-color: #fff;
+    outline: 0;
+}
 
 .btn.btn-primary.search-btn {
     background-color: #FF0043;
@@ -275,3 +289,4 @@ p{
     }
 
 }
+
