@@ -79,7 +79,9 @@ p{
     transform: translateY(-3px);
 }
 
-
+.scrolled{
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
 .top-hero{
     /* margin-top: 100px; */
     margin-top: clamp(3.125rem, 0.893rem + 5.952vw, 6.25rem);
@@ -271,4 +273,5 @@ p{
         margin-bottom: 16px;
         text-align: center;
     }
+
 }
