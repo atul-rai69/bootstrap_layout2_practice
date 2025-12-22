@@ -1,0 +1,274 @@
+:root{
+    
+}
+
+
+body{
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Source Sans Pro',  Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.body-fnt{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+
+p{
+    max-width: 60ch;
+}
+
+.btn,
+.form-control{
+    font-size: 15px;
+}
+
+.cstm-h1{
+    font-size: clamp(32px, 5vw, 50px);
+    font-weight: 800;
+    line-height: 1.2;
+}
+.cstm-h2{
+    font-size: clamp(26px, 4vw, 42px);
+    font-weight: 700;
+    line-height: 1.3;
+}
+.body-fnt-clr{
+    color: #212529 !important;
+}
+.nav-clr{
+    color: #222 ;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #222 !important;
+}
+
+.buttons{
+    margin-left: auto;
+}
+.navbar .navbar-collapse .changelog-btn{
+    background-color: white;
+    color: #FF0043;
+    border-color: #FF0043;
+    transition: 0.3s;
+}
+.navbar .navbar-collapse .changelog-btn:hover{
+    background-color: #FF0043;
+    color: white;
+    border-color: #FF0043;
+    transform: translateY(-3px);
+}
+
+.navbar .navbar-collapse  .contact-btn{
+    background-color: #FF0043;
+    color: white;
+    border-color: #FF0043;
+    transition: 0.3s;
+}
+.navbar .navbar-collapse .contact-btn:hover{
+    background-color: white;
+    color: #FF0043;
+    border-color: #FF0043;
+    transform: translateY(-3px);
+}
+
+
+.top-hero{
+    /* margin-top: 100px; */
+    margin-top: clamp(3.125rem, 0.893rem + 5.952vw, 6.25rem);
+    /* margin-bottom: 40px; */
+    margin-bottom: clamp(0.625rem, -0.714rem + 3.571vw, 2.5rem);
+}
+
+.search-form {
+    max-width: 520px;
+}
+.search-group {
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.search-group:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+}
+
+
+.search-group .form-control {
+    border: none;
+    font-size: 15px;
+    padding: 12px 14px;
+}
+
+.btn.btn-primary.search-btn {
+    background-color: #FF0043;
+    border: none;
+    padding: 0 20px;
+    color: white;
+    border-color: #FF0043;
+}
+
+
+/* @media (max-width: 576px) {
+    .search-group {
+        flex-direction: column;
+    }
+    .btn.btn-primary.search-btn {
+        width: 100%;
+        padding: 10px;
+    }
+} */
+
+
+.card-title{
+    font-weight: 700 ;
+}
+
+.card{
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+    /* transform: scale(1.02); */
+    transform: translateY(-4px);
+}
+
+.card .card-body .card-svg{
+    background-color: #FF0043;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+}
+.card .card-body .card-svg svg{
+    color: white;
+    height: 20px;
+    width: 20px;
+    
+}
+
+
+
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+    max-width: 1140px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    border-radius: 0.5rem;
+}
+
+#ticket-btn{
+    background-color: #FF0043;
+    color: white;
+    border-color: #FF0043;
+    transition: 0.3s;
+}
+#ticket-btn:hover{
+    background-color: white;
+    color: #FF0043;
+    border-color: #FF0043;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 767.98px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-image {
+        margin: 2rem auto 0;
+    }
+}
+
+.bottom-svg{
+    background-color: #FF0043;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+.bottom-svg svg{
+    color: white;
+    height: 15px;
+    width: 15px; 
+}
+
+.footer-text{
+    font-size: 12px;
+    color: #D1D1D2;
+}
+.site-footer {
+    padding-top: 40px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #222;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+.footer-logo img {
+    height: 35px;
+    width: auto;
+}
+.footer-svgs {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.footer-svgs a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .footer-links ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-svgs {
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    .footer-links,
+    .footer-logo {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+}

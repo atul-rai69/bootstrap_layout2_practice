@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Assignment</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+<body>
+    <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container-fluid">
+            <div class="container d-flex">
+
+            <a class="navbar-brand" href="#"><img src="./images/logo (2).png" alt="logo"></a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="visibility:unset">
+                <ul class="navbar-nav m-auto mb-3 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inner Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Outer Page</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <button class="btn  changelog-btn" type="submit">Changelog</button>
+                    <button class="btn contact-btn" type="submit">Contact</button>
+                </div>
+            </div>
+      </div>
+        </div>
+      
+    </nav>
+    
+    </header>
+
+    <section>
+        <div class="container py-5 top-hero">
+            <div class="row" id="banner-container">
+                <div class="col-12 col-md-8 text-center text-md-start">
+                    <h1 class="cstm-h1">
+                        Documentation Theme By Themefisher Team
+                    </h1>
+                    <p class="body-fnt">
+                        Lorem ipsum dolor amet, consetetur sadiffspscing elitr, diam nonumy invidunt ut labore et dolore magnaaliquyam erat, sed diam voluptua At.
+                    </p>
+
+                    <form class="my-5 search-form">
+                        <div class="input-group search-group">
+                            <input
+                                class="form-control"
+                                type="search"
+                                placeholder="Search here"
+                                aria-label="Search"
+                            >
+                            <button class="btn btn-primary search-btn" type="submit">
+                                SEARCH
+                            </button>
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-start">
+                    <img src="./images/banner.jpg" class="img-fluid banner-img">
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section>
+        <div class="container">
+            <h2 class="cstm-h2 ">Browse Your Topics</h2>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-left">
+                        <div class="card-body">
+                            <div class="card-svg mb-3 d-flex justify-content-center align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sliders2-vertical" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M0 10.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1H3V1.5a.5.5 0 0 0-1 0V10H.5a.5.5 0 0 0-.5.5M2.5 12a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2a.5.5 0 0 0-.5-.5m3-6.5A.5.5 0 0 0 6 6h1.5v8.5a.5.5 0 0 0 1 0V6H10a.5.5 0 0 0 0-1H6a.5.5 0 0 0-.5.5M8 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2A.5.5 0 0 0 8 1m3 9.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1H14V1.5a.5.5 0 0 0-1 0V10h-1.5a.5.5 0 0 0-.5.5m2.5 1.5a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2a.5.5 0 0 0-.5-.5"/>
+                                </svg>
+                            </div>
+                            <h5 class="card-title">Basic Startup</h5>
+                            <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-left">
+                        <div class="card-body">
+                            <div class="card-svg mb-3 d-flex justify-content-center align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple-music" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="m10.995 0 .573.001q.241 0 .483.007c.35.01.705.03 1.051.093.352.063.68.166.999.329a3.36 3.36 0 0 1 1.47 1.468c.162.32.265.648.328 1 .063.347.084.7.093 1.051q.007.241.007.483l.001.573v5.99l-.001.573q0 .241-.008.483c-.01.35-.03.704-.092 1.05a3.5 3.5 0 0 1-.33 1 3.36 3.36 0 0 1-1.468 1.468 3.5 3.5 0 0 1-1 .33 7 7 0 0 1-1.05.092q-.241.007-.483.008l-.573.001h-5.99l-.573-.001q-.241 0-.483-.008a7 7 0 0 1-1.052-.092 3.6 3.6 0 0 1-.998-.33 3.36 3.36 0 0 1-1.47-1.468 3.6 3.6 0 0 1-.328-1 7 7 0 0 1-.093-1.05Q.002 11.81 0 11.568V5.005l.001-.573q0-.241.007-.483c.01-.35.03-.704.093-1.05a3.6 3.6 0 0 1 .329-1A3.36 3.36 0 0 1 1.9.431 3.5 3.5 0 0 1 2.896.1 7 7 0 0 1 3.95.008Q4.19.002 4.432 0h.573zm-.107 2.518-4.756.959H6.13a.66.66 0 0 0-.296.133.5.5 0 0 0-.16.31c-.004.027-.01.08-.01.16v5.952c0 .14-.012.275-.106.39-.095.115-.21.15-.347.177l-.31.063c-.393.08-.65.133-.881.223a1.4 1.4 0 0 0-.519.333 1.25 1.25 0 0 0-.332.995c.031.297.166.582.395.792.156.142.35.25.578.296.236.047.49.031.858-.043.196-.04.38-.102.555-.205a1.4 1.4 0 0 0 .438-.405 1.5 1.5 0 0 0 .233-.55c.042-.202.052-.386.052-.588V6.347c0-.276.08-.35.302-.404.024-.005 3.954-.797 4.138-.833.257-.049.378.025.378.294v3.524c0 .14-.001.28-.096.396-.094.115-.211.15-.348.178l-.31.062c-.393.08-.649.133-.88.223a1.4 1.4 0 0 0-.52.334 1.26 1.26 0 0 0-.34.994c.03.297.174.582.404.792a1.2 1.2 0 0 0 .577.294c.237.048.49.03.858-.044.197-.04.381-.098.556-.202a1.4 1.4 0 0 0 .438-.405q.173-.252.233-.549a2.7 2.7 0 0 0 .044-.589V2.865c0-.273-.143-.443-.4-.42-.04.003-.383.064-.424.073"/>
+                                </svg>
+                            </div>
+                            <h5 class="card-title">Account Bill</h5>
+                            <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-left">
+                        <div class="card-body">
+                            <div class="card-svg mb-3 d-flex justify-content-center align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+                                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+                                    <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8m0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                                </svg>
+                            </div>
+                            <h5 class="card-title">Our Features</h5>
+                            <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-left">
+                        <div class="card-body">
+                            <div class="card-svg mb-3 d-flex justify-content-center align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                    <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                                </svg>
+                            </div>
+                            <h5 class="card-title">Theme Facility</h5>
+                            <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 ">  
+            <h2 class="cstm-h2 ">Most Asked Questions</h2>
+
+            <div class="row gy-3 py-0">
+
+                <div class="col-12 col-md-6">
+                    <div class="col-12 mb-4">
+                        <div class="card text-left py-3 shadow-lg">
+                            <div class="card-body">
+                                <h5 class="card-title">Will updates also be free?</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem laborum placeat porro velit laboriosam ullam ad provident rem modi assumenda ab suscipit fuga totam ex, molestiae, atque cupiditate recusandae. Obcaecati quae, ipsum deserunt aspernatur dolorem quia? Inventore distinctio aliquid doloremque dolores. Nemo minima perferendis similique tempora impedit obcaecati molestiae tenetur suscipit amet quasi exercitationem commodi, ad quis enim soluta in!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="card text-left py-3 shadow-lg">
+                            <div class="card-body">
+                                <h5 class="card-title">What is a product key?</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio asperiores officiis voluptates accusantium minima voluptas quam animi corporis architecto!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="card text-left py-3 shadow-lg">
+                            <div class="card-body">
+                                <h5 class="card-title">Is there any documentation and support?</h5>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat, architecto, quia ducimus placeat et eum quae maiores numquam mollitia error labore atque facere reiciendis sit ullam ipsam corrupti officiis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="col-12 col-md-6">
+                    <div class="col-12 mb-4">
+                        <div class="card text-left py-3 shadow-lg">
+                            <div class="card-body">
+                                <h5 class="card-title">Discounts for students and Non Profit Organizations?</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloremque vel perspiciatis nam sapiente odio voluptates ipsa perferendis nostrum id.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="card text-left py-3 shadow-lg">
+                            <div class="card-body">
+                                <h5 class="card-title">I need something unique, Can you make it?</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At incidunt consectetur voluptate accusantium facilis alias quia nihil aliquam cum eum cupiditate atque reiciendis maxime, dignissimos eligendi quas, illo iure, qui dolorum fugit! Repellat saepe ullam error laboriosam suscipit. Facilis, ducimus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="card text-left py-3 shadow-lg">
+                            <div class="card-body">
+                                <h5 class="card-title">Any refunds?</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequatur animi quas pariatur sapiente possimus aliquid saepe debitis modi iusto?</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section>
+        <div class="container  d-flex justify-content-center">
+            <div class="row g-3 align-items-center px-3" style=" margin-top: 100px; margin-bottom: 100px;">
+                <div class="col-12 col-md-4 d-flex">
+                    <img src="./images/cta-illustration.jpg" alt="Hero Image" class="img-fluid hero-image">
+                </div>
+                <div class="col-12 col-md-8 text-center text-md-start">
+                    <h2 class="cstm-h2">Still Didn't Find Your Answer?</h2>
+                    <p class="hero-description pe-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                    <button id="ticket-btn" class="btn">Submit a Ticket</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row align-items-center py-4">
+                <div class="col-12 col-lg-4 footer-links">
+
+                    <ul>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Search</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-12 col-lg-4 footer-logo">
+                    <img src="./images/logo (2).png" alt="logo">
+                </div>
+
+                <div class="col-12 col-lg-4 footer-svgs">
+
+                    <a href="#" class="bottom-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="bottom-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="bottom-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="bottom-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg>
+                    </a>
+                    
+                </div>
+            </div>
+            <hr class="mb-3">
+            
+        </div>
+        
+        <div class="row">
+                <div class="footer-text col-md-12 text-center">
+                    <p class="m-auto">&copy; 2023 Your Company. All rights reserved.</p>
+                </div>
+            </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
