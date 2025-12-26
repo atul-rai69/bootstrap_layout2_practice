@@ -44,6 +44,10 @@ body{
     color: #222 ;
 }
 
+nav{
+    padding: 0;
+}
+
 .navbar-nav .nav-item .nav-link{
     color: #222 !important;
     padding: 20px;
@@ -89,7 +93,7 @@ nav .nav-container{
 }
 
 .top-hero{
-    margin-top: 100px;
+    margin-top: 112px;
     /* margin-top: clamp(3.125rem, 0.893rem + 5.952vw, 6.25rem); */
     margin-bottom: 40px;
     /* margin-bottom: clamp(0.625rem, -0.714rem + 3.571vw, 2.5rem); */
@@ -300,4 +304,5 @@ nav .nav-container{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 
