@@ -271,6 +271,8 @@ nav .nav-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 42px;
+    width: 42px;
 }
 @media (max-width: 768px) {
     .footer-links ul {
@@ -298,3 +300,4 @@ nav .nav-container{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
